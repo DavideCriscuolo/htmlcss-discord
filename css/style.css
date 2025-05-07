@@ -83,7 +83,9 @@ body {
   }
 } 
 /* end debug */
-
+ul {
+  list-style: none;
+}
 .small_txt_size_color {
   font-size: 20px;
   color: black;
@@ -109,7 +111,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  list-style: none;
 }
 .nav_site {
   display: flex;
@@ -137,9 +138,9 @@ body {
   padding: var(--padding-small);
   border: var(--border-dashed);
 }
-.multi_link a {
+a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .login {
   display: flex;
@@ -317,6 +318,31 @@ img {
   padding: 10px 0px;
   gap: 2px;
 }
+.select_lenguage img {
+  width: 10%;
+}
+.elements_box_rose {
+  width: 50%;
+}
+.title_footer {
+  font-size: 30px;
+  width: 70%;
+}
+
+.list_product li {
+  padding-top: 10px;
+}
+.list_company li {
+  padding-top: 10px;
+}
+.list_resorce li {
+  padding-top: 10px;
+}
+
+.list_norm li {
+  padding-top: 10px;
+}
+
 .end_footer {
   background-color: var(--bg-footer-color);
   border-top: 2px solid white;
