@@ -82,6 +82,7 @@
 /* end debug */
 
 /* start header */
+
 #header_site {
   display: flex;
   justify-content: center;
@@ -133,7 +134,9 @@
 /* end header */
 
 /* start main */
-
+img {
+  width: 100%;
+}
 .jumbo {
   background-image: url(./../img/jumbo.png);
   background-size: cover;
@@ -170,9 +173,7 @@
   height: 100%;
   border: var(--border-dashed);
 }
-.box_blue img {
-  width: 100%;
-}
+
 .small_box_pink {
   background-color: var(--bg-box-pink-color);
   height: 100%;
