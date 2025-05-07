@@ -21,6 +21,9 @@
   --bg-nav-footer-elemets-color: #ffb6c1;
   --font-size: 20px;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 /* .debug {
   #header_site {
@@ -81,14 +84,24 @@
 } 
 /* end debug */
 
+.small_txt_size_color {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+.big_txt_size {
+  padding-top: 30px;
+  font-size: 46px;
+  padding-right: 140px;
+}
+
 /* start header */
 
 #header_site {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  background-color: var(--bg-light-blue-color);
+  background-image: url(./../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
 }
 .multilink_flex {
   display: flex;
@@ -100,7 +113,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50%;
+  width: 50%;
+  margin: 0 auto;
 
   font-size: var(--font-size);
 }
@@ -138,14 +152,10 @@ img {
   width: 100%;
 }
 .jumbo {
-  background-image: url(./../img/jumbo.png);
-  background-size: cover;
-  background-position: center;
-  height: 700px;
+  height: 620px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-jumbo-color);
 }
 .box_desc_jumbo {
   height: 70%;
@@ -153,6 +163,17 @@ img {
   background-color: var(--bg-jumbo-desc-color);
   border: var(--border-dashed);
   text-align: center;
+}
+.box_desc_jumbo h1 {
+  font-size: 60px;
+  color: white;
+  padding: 30px 0;
+}
+.box_desc_jumbo p {
+  font-size: 20px;
+  color: white;
+  padding: 20px 130px;
+  line-height: 30px;
 }
 .container_white {
   height: 700px;
@@ -219,6 +240,12 @@ img {
   width: 100%;
   border: var(--border-dashed);
 }
+
+.txt_bg {
+  text-align: center;
+  background-image: url(./../img/stars.svg);
+}
+
 /* end main */
 
 /* start footer */
