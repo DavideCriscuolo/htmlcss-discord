@@ -151,7 +151,7 @@
   text-align: center;
 }
 .container_white {
-  height: 600px;
+  height: 700px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -169,6 +169,9 @@
   height: 100%;
   border: var(--border-dashed);
 }
+.box_blue img {
+  width: 100%;
+}
 .small_box_pink {
   background-color: var(--bg-box-pink-color);
   height: 100%;
@@ -178,7 +181,8 @@
 
 .container_grey {
   background-color: var(--bg-container-color);
-  height: 600px;
+
+  height: 700px;
   width: 100%;
   display: flex;
   justify-content: center;
